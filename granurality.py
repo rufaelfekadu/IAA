@@ -7,7 +7,6 @@ from matplotlib import pyplot as plt
 import sklearn
 from sklearn.cluster import AgglomerativeClustering, DBSCAN, OPTICS
 from sklearn.metrics.pairwise import euclidean_distances
-from eval_functions import _iou_score
 
 def flatten(listoflists):
     return [item for sublist in listoflists for item in sublist]
